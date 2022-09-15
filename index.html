@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        .chance-color{
+            width: 100vw;
+            height: 20vh;
+        }
+
+        .orientation{
+            display: none;
+        }
+
+        @media screen and (min-width: 320px) and (max-width: 479px) {
+            .chance-color{
+                background-color: black;
+            }
+        }
+        
+        @media screen and (min-width: 480px) and (max-width: 599px) {
+            .chance-color{
+                background-color: lightblue;
+            }
+        }
+
+        @media screen and (min-width: 600px) and (max-width: 767px) {
+            .chance-color{
+                background-color: lightgreen;
+            }
+        }
+
+        @media screen and (min-width: 768px) and (max-width: 799px) {
+            .chance-color{
+                background-color: gold;
+            }
+        }
+
+        @media screen and (min-width: 800px) and (max-width: 1023px) {
+            .chance-color{
+                background-color: brown;
+            }
+        }
+
+        @media screen and (min-width: 1024px) and (max-width: 1279px) {
+            .chance-color{
+                background-color: darkblue;
+            }
+        }
+
+        @media screen and (min-width: 1280px) and (max-width: 1439px) {
+            .chance-color{
+                background-color: darkgreen;
+            }
+        }
+
+        @media screen and (min-width: 1440px) {
+            .chance-color{
+                background-color: darkred;
+            }
+        }
+        
+        @media screen and (orientation: landscape) {
+            .orientation{
+                width: 100%;
+                display: inline-block;
+                font-size: 2rem;
+                font-weight: normal;
+                text-align: center;
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            }
+        }
+
+    </style>
+    <title>Questões 1 e 2</title>
+</head>
+<body>
+    <div class="chance-color"></div>
+    <div class="orientation">Tô aqui em</div>    
+</body>
+</html>

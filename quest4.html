@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        
+        body{
+            width: 100vw;
+            height: 100vh;
+        }
+
+        a{
+            display: block;
+            text-decoration: none;
+            margin-top: 1%;
+        }
+
+        button, a{
+            width: 100%;
+        }
+
+        h1{
+            text-align: center;
+        }
+
+        p{
+            text-align: justify;
+            width: 100%;
+        }
+
+        img{
+            display: none;
+            height: 120px;
+            width: 200px;
+        }
+
+        @media screen and (min-width: 320px) and (max-width: 480px){
+            
+            nav{
+                width: 100%;
+            }    
+
+            section{
+                width: 100%;
+            }
+
+        }
+
+        @media screen and (min-width: 481px) and (max-width: 1279px) {
+
+            nav{
+                display: inline-block;
+                width: 40%;
+                margin-left: 10%;
+            }
+
+            section{
+                display: inline-block;
+                width: 40%;
+            }
+
+        }
+
+        @media screen and (min-width: 1280px) {
+            
+            nav{
+                display: inline-block;
+                width: 40%;
+            }
+
+            section{
+                display: inline-block;
+                width: 40%;
+            }
+
+            img{
+                display: inline-block;
+            }
+        }
+
+    </style>
+    <title>Questão 4</title>
+</head>
+<body>
+    <nav>
+        <a href="#br">
+            <button>Brasil</button>
+        </a>
+        <a href="http://">
+            <button>Alemanha</button>
+        </a>
+        <a href="http://">
+            <button>Argentina</button>
+        </a>
+        <a href="http://">
+            <button>Bélgica</button>
+        </a>
+        <a href="http://">
+            <button>Uruguai</button>
+        </a>
+    </nav>
+    <section id="br">
+        <h1>Seleção do Brasil</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero, sapiente voluptates eum esse voluptatibus ut iure, voluptatum quis ipsa, iste voluptatem! A dicta corporis obcaecati ab omnis illo ipsum enim. Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum illum minima atque nam nemo neque tempore nostrum fugiat? Facere blanditiis eveniet ullam modi eaque odio ab ut error harum cupiditate.</p>
+    </section>
+    <img src="/bandeira-br.png" alt="image">
+</body>
+</html>
